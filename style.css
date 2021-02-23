@@ -1,0 +1,57 @@
+* {
+    position: relative;
+}
+
+body {
+    background-color: rgb(200, 200, 240);
+}
+
+.text {
+    text-align: center;
+}
+
+.cell {
+    height: 17vmin;
+    width: 17vmin;
+
+    border: 5px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 500%;
+    line-height: 5px;
+
+}
+
+#grid {
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid black;
+}
+
+#wrapper {
+    display: block;
+    width: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    background-color: rgb(220, 220, 240);
+}
+
+#restart {
+    border: 2px solid black;
+    height: 10%;
+    width: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#restarter {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}

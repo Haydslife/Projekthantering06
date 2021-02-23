@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>06TicTacToe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="media/Pikastan.ico">
+</head>
+<body>
+    <div id="wrapper">
+        <h1 class="text" id="title">Tic Tac Toe</h1>
+        <h3 class="text" id="turnAnnouncer"></h3>
+
+        <table id="grid">
+            <tr>
+                <td id="a1" class="cell" type="button" onclick="return boardPlay(playerSign, id);"></td>
+                <td id="a2" class="cell" type="button" onclick="return boardPlay(playerSign, id);"></td>
+                <td id="a3" class="cell" type="button" onclick="return boardPlay(playerSign, id);"></td>
+
+            </tr>
+            <tr>
+                <td id="b1" class="cell" type="button" onclick="return boardPlay(playerSign, id);"></td>
+                <td id="b2" class="cell" type="button" onclick="return boardPlay(playerSign, id);"></td>
+                <td id="b3" class="cell" type="button" onclick="return boardPlay(playerSign, id);"></td>
+
+            </tr>
+            <tr>
+                <td id="c1" class="cell" type="button" onclick="return boardPlay(playerSign, id);"></td>
+                <td id="c2" class="cell" type="button" onclick="return boardPlay(playerSign, id);"></td>
+                <td id="c3" class="cell" type="button" onclick="return boardPlay(playerSign, id);"></td>
+
+            </tr>
+        </table>
+
+        <div id="restart">
+            <button id="restarter" type="button" onclick="return newGame();">Restart game</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script>newGame();</script>
+</body>
+</html>
