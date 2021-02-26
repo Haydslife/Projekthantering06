@@ -2,8 +2,15 @@
     position: relative;
 }
 
+html {
+    margin: 0;
+    height: 100%;
+}
+
 body {
     background-color: rgb(200, 200, 240);
+    margin: 0;
+    height: 100%;
 }
 
 .text {
@@ -32,10 +39,6 @@ body {
 #wrapper {
     display: block;
     width: 80%;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
     border: 2px solid black;
     background-color: rgb(220, 220, 240);
 }
