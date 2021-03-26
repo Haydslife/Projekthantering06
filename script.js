@@ -83,7 +83,7 @@ function boardPlay(sign, cell) {
             // check if any cells have not been played, otherwise it is a draw
             for (var o = 0; o < 9; o++) {
                 if (cells[o].innerHTML === "") { 
-                    break;
+                    break boardPlay;
                 } else if (o === 8 && !a && !b && !c) {
                     end(2);
                 }
